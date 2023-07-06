@@ -25,7 +25,7 @@ void insert(node **head , int data){
     }
     last->next = temp ;
 }
-
+ 
 void print(node *head){
     while(head != NULL){
         cout << head->data;
